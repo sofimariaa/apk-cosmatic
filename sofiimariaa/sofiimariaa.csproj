@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35FF2FF6-5477-4E25-A19E-047140CB90B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>sofiimariaa</RootNamespace>
+    <AssemblyName>sofiimariaa</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barang.Designer.cs">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BELI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BELI.Designer.cs">
+      <DependentUpon>BELI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bodylation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bodylation.Designer.cs">
+      <DependentUpon>bodylation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BodyWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodyWash.Designer.cs">
+      <DependentUpon>BodyWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ket bodylation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ket bodylation.Designer.cs">
+      <DependentUpon>ket bodylation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ket bodywash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ket bodywash.Designer.cs">
+      <DependentUpon>Ket bodywash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ket moisturizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ket moisturizer.Designer.cs">
+      <DependentUpon>Ket moisturizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ket skinrefresher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ket skinrefresher.Designer.cs">
+      <DependentUpon>Ket skinrefresher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keterangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keterangan.Designer.cs">
+      <DependentUpon>Keterangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moisturaizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moisturaizer.Designer.cs">
+      <DependentUpon>moisturaizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room beli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room beli.Designer.cs">
+      <DependentUpon>Room beli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selesai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selesai.Designer.cs">
+      <DependentUpon>selesai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skinrefesher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skinrefesher.Designer.cs">
+      <DependentUpon>skinrefesher.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Barang.resx">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BELI.resx">
+      <DependentUpon>BELI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bodylation.resx">
+      <DependentUpon>bodylation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodyWash.resx">
+      <DependentUpon>BodyWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ket bodylation.resx">
+      <DependentUpon>ket bodylation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ket bodywash.resx">
+      <DependentUpon>Ket bodywash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ket moisturizer.resx">
+      <DependentUpon>Ket moisturizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ket skinrefresher.resx">
+      <DependentUpon>Ket skinrefresher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keterangan.resx">
+      <DependentUpon>Keterangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moisturaizer.resx">
+      <DependentUpon>moisturaizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Room beli.resx">
+      <DependentUpon>Room beli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selesai.resx">
+      <DependentUpon>selesai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skinrefesher.resx">
+      <DependentUpon>skinrefesher.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apotic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apotic1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apotic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skicare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skincare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NCT-Dream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serum1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rum1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin reve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2598d20618309f61833ffd294d55284.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woww.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serum2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0cb48d156689847.Y3JvcCwxNDg2LDExNjMsMjQ2LDA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clariant-Image-Hostaphat-KL-340-D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 10.53.06.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 11.05.05 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 11.05.05.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 11.05.06 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 11.05.06.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.41 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.39 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.40 %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.40.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.39.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.41.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2024-05-13 at 14.23.41 %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nct.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ooo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skincare Indonesia dengan brand ambassador artis korea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4681b690833ca15bf2ce8bd5ac19dda0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74209b66be945c0d34c3bedddb926963.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
